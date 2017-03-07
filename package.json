@@ -1,0 +1,26 @@
+{
+    "name": "webpack_study",
+    "version": "1.0.0",
+    "description": "学习webpack",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack-dev-server --inline --hot",
+        "build": "webpack --display-error-details",
+        "watch": "webpack --progress --colors --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zcge/webpack_study.git"
+    },
+    "author": "韩柯炜",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/zcge/webpack_study/issues"
+    },
+    "homepage": "https://github.com/zcge/webpack_study#readme",
+    "devDependencies": {
+        "webpack": "^2.2.1",
+        "webpack-dev-server": "^2.4.1"
+    }
+}
